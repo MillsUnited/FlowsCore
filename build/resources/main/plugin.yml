@@ -1,0 +1,15 @@
+name: FlowsCore
+version: '1.0'
+main: com.mills.flowsCore.Main
+api-version: '1.21'
+author: mills
+commands:
+  endunlock:
+  home:
+  sethome:
+  deletehome:
+    aliases:
+      - delhome
+  spawn:
+  homes:
+  endlock:
