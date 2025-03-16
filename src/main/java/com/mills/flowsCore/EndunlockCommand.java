@@ -25,8 +25,8 @@ public class EndunlockCommand implements CommandExecutor {
             Player player = (Player) sender;
 
             UUID uuid = player.getUniqueId();
-//            String flows = "de290521-fdcf-4829-b72e-9e9abe81b77b";
-            String flows = "95b646ab-1d1c-4dbb-98fc-baa752362b0c";
+            String flows = "de290521-fdcf-4829-b72e-9e9abe81b77b";
+//            String flows = "95b646ab-1d1c-4dbb-98fc-baa752362b0c";
             String flowsalt = "d6403b7e-a86b-4ec3-9e9f-8606821b9ed4";
 
             if (uuid.toString().equals(flows) || uuid.toString().equals(flowsalt)) {

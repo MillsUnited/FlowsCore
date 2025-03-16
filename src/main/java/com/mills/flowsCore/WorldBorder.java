@@ -5,8 +5,13 @@ import org.bukkit.World;
 
 public class WorldBorder {
 
-    public void setWorldBorder() {
+    private Main main;
 
+    public WorldBorder(Main main) {
+        this.main = main;
+    }
+
+    public void setWorldBorder() {
         World overworld = Bukkit.getWorld("world");
         if (overworld != null) {
             org.bukkit.WorldBorder border = overworld.getWorldBorder();
